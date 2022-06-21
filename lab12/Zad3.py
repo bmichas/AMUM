@@ -4,9 +4,6 @@ import matplotlib.animation
 
 k = np.array([[-1,-1,1,1],[-1,1,1,-1]])
 
-fig, ax = plt.subplots(figsize=(6,6))
-ax.set_xlim(-2,2)
-ax.set_ylim(-2,2)
 
 def animate(a):
     deg = a*2
