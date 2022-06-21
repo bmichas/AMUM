@@ -4,9 +4,6 @@ import matplotlib.animation
 
 k = np.array([[-1,-1,1,1],[-1,1,1,-1]])
 
-
-
-
 def animate(a):
     w = a/10
     opy = np.array([[1, w],

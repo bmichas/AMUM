@@ -7,7 +7,6 @@ k = np.array([[-1,-1,-1,-1, 1, 1, 1, 1],
               [-1,-1, 1, 1,-1,-1, 1, 1],
               [-1, 1,-1, 1,-1, 1,-1, 1]])
 
-
 def animate(a):
     deg = a*5
     rot = np.array([[np.cos(np.radians(deg)),-1*np.sin(np.radians(deg)),0],

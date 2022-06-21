@@ -2,8 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation
 
-k = np.array([[-1,-1,1,1],[-1,1,1,-1]])
-
+k = np.array([[-1,-1,1,1],[-1,1,1,-1],[1,1,1,1]])
 
 def animate(a):
     deg = a*2
